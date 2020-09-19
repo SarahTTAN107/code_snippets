@@ -5,3 +5,7 @@ File naming following format:
   2. Step: (Ingestion, Transform, Enrich, EDA, Segment...)
   3. Description: (argparse - command line basics, csv-to-dict-for-BQ-ingestion)
   
+Code archive to be linked with Sarah's Notion Python Code Vault
+Code in github => further details + link to Github Gist in Notion
+
+Future search: Notion search => Git link => fork and use :)
