@@ -8,4 +8,4 @@ File naming following format:
 Code archive to be linked with Sarah's Notion Python Code Vault
 Code in github => further details + link to Github Gist in Notion
 
-Future search: Notion search => Git link => fork and use :)
+How to use: Notion search => Git link => fork and use :)
