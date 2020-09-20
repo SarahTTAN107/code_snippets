@@ -5,6 +5,7 @@ from apache_beam.options.pipeline_options import PipelineOptions
 
 # build data pipeline to read line by line of a csv file in google cloud storage (GCS) to a table called head_usa_name in dataset lake in Big Query (BQ)
 
+# check data structure with a snippet of csv file 
 string = ""
 with open("data_files/data_files_head_usa_names.csv", "r") as data_file: 
     for line in data_file: 
