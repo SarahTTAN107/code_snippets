@@ -1,4 +1,6 @@
 -- Simple model for benchmarking
+-- schema: https://support.google.com/analytics/answer/3437719?hl=en
+-- qwiklabs: https://support.google.com/analytics/answer/3437719?hl=en
 CREATE OR REPLACE MODEL `ecommerce.classification_model`
 OPTIONS
 (
@@ -32,7 +34,7 @@ FROM
   USING (fullVisitorId)
 ;
 
--- check ROC of simple model - pretty bad at 70%
+-- Check ROC of simple model - pretty bad at 70%
 SELECT
   roc_auc,
   CASE
