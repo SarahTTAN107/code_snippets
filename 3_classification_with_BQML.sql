@@ -1,4 +1,4 @@
--- simple model for benchmarking
+-- Simple model for benchmarking
 CREATE OR REPLACE MODEL `ecommerce.classification_model`
 OPTIONS
 (
