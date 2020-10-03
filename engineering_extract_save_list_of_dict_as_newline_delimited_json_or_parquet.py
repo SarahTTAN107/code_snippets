@@ -19,6 +19,8 @@ def create_parquet_file(data: dict, file_path: str):
     table = pa.Table.from_pandas(df)
     pq.write_table(table, file_path)
     
+
+
 if __name__ == "__main__":
   file_type = "json"
   print("Saving data into a {} file...".format(file_type))
